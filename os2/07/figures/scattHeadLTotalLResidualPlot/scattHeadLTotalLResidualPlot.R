@@ -12,7 +12,7 @@ points(possum$totalL[these]+rnorm(1,0,0.01),
        possum$headL[these]-(41+0.59*possum$totalL[these])+
           rnorm(1,0,0.01),
        pch=c(3,4,2), col=COL[4], cex=1.3, lwd=2.5)
-}
+
 
 abline(h=0, lty=2)
 
